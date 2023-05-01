@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>sweden</title>
+    <title>Sweden</title>
     <script type="text/javascript">
       window.errors = []
       if (window.addEventListener) {
@@ -363,20 +363,26 @@ body,
 #wrapper { height: 100vh; width: 177.77777777777777vh; }
 }
 #loading-progress {
-border: 1px solid #d6ffff;
+border: 1px solid #fff694;
 }
 #loading-progress::before {
-color: #d6ffff;
+color: #fff694;
 }
 #loading-progress::after {
-background-color: #d6ffff;
+background-color: #fff694;
+}
+.custom-monitor-colour .default .monitor-value,
+.custom-monitor-colour .slider .monitor-value,
+.custom-monitor-colour .large,
+.custom-monitor-colour .row-value {
+background-color: #70fdff;
 }
 .monitor {
 color: #ffffff;
 }
 </style>
   </head>
-  <body class="loading show-loading-progress stretch-loading-image show-monitor-box">
+  <body class="loading show-loading-progress stretch-loading-image show-fullscreen-btn show-monitor-box custom-monitor-colour">
     <div id="wrapper">
       <canvas id="stage"></canvas>
       <div id="monitors"></div>
@@ -1411,13 +1417,13 @@ window.download = (blob, name = 'download') => {
 }
 
 </script> <script>
-const GENERATED = 1681649394500
+const GENERATED = 1682914800640
 const initOptions = {
 	"width": 1280,
 	"height": 720,
 	"stretchStage": false,
 	"fps": 30,
-	"turbo": true,
+	"turbo": false,
 	"limits": true,
 	"fencing": false,
 	"pointerLock": false,
@@ -1463,8 +1469,8 @@ const initOptions = {
 		"f9edfc63a3da2d7b32ff801ad055d5bd.svg": "./f9edfc63a3da2d7b32ff801ad055d5bd.svg",
 		"234de540e4148f9644b4d7f384ac9669.svg": "./234de540e4148f9644b4d7f384ac9669.svg",
 		"93016ffaad2e4c8ae64f081d1bbb074f.svg": "./93016ffaad2e4c8ae64f081d1bbb074f.svg",
-		"81eda98977cc739e42fc538dd19925d1.svg": "./81eda98977cc739e42fc538dd19925d1.svg",
-		"86aa7aa4587b500d1adc3f663f15aee5.svg": "./86aa7aa4587b500d1adc3f663f15aee5.svg",
+		"b4565d355fbdf1e4bb6e2f2d56e9660c.wav": "./b4565d355fbdf1e4bb6e2f2d56e9660c.wav",
+		"70f0784381d106a85c28b3d4e7960e5b.svg": "./70f0784381d106a85c28b3d4e7960e5b.svg",
 		"0423f4e8070594d2d298abe8eecf40dc.svg": "./0423f4e8070594d2d298abe8eecf40dc.svg",
 		"141fcd54960c24b99ec9637dbece7613.svg": "./141fcd54960c24b99ec9637dbece7613.svg",
 		"43512cb2d77e1e4e851fd7a1b943b548.svg": "./43512cb2d77e1e4e851fd7a1b943b548.svg",
@@ -1473,14 +1479,15 @@ const initOptions = {
 		"635aad4c5d4294ada3a4f2ae39fd48e3.svg": "./635aad4c5d4294ada3a4f2ae39fd48e3.svg",
 		"7700a19236a836bb12d90aa569a847c7.svg": "./7700a19236a836bb12d90aa569a847c7.svg",
 		"6e88d1823e7ca3919e80a3306e31fa0e.svg": "./6e88d1823e7ca3919e80a3306e31fa0e.svg",
-		"93df1db2828ef7d25cb711b6f6260e2d.svg": "./93df1db2828ef7d25cb711b6f6260e2d.svg",
+		"d8e6e6ed5a086ea20f9d8127ba294118.png": "./d8e6e6ed5a086ea20f9d8127ba294118.png",
 		"bca0da9ebbddaaf88ad9c339da346322.png": "./bca0da9ebbddaaf88ad9c339da346322.png",
 		"89126910648a7894711ac3f0aded127a.svg": "./89126910648a7894711ac3f0aded127a.svg",
 		"7aeb94e18a89c7981cc83db0e49b2deb.svg": "./7aeb94e18a89c7981cc83db0e49b2deb.svg",
 		"86dab44935b0a2fa4bbd0255eba41fb9.svg": "./86dab44935b0a2fa4bbd0255eba41fb9.svg",
 		"fef0417894fd3f45bd2bda5561a15ca2.svg": "./fef0417894fd3f45bd2bda5561a15ca2.svg",
 		"7c46959df3d3dd56a068f197635cd7e2.svg": "./7c46959df3d3dd56a068f197635cd7e2.svg",
-		"eaa26a8b0296052b00fa0d457e361aed.svg": "./eaa26a8b0296052b00fa0d457e361aed.svg"
+		"eaa26a8b0296052b00fa0d457e361aed.svg": "./eaa26a8b0296052b00fa0d457e361aed.svg",
+		"b7a2d27dfbfdc7356d40600574a1a792.png": "./b7a2d27dfbfdc7356d40600574a1a792.png"
 	}
 }
 init(initOptions)
